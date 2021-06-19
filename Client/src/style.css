@@ -1,0 +1,237 @@
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  /*background-color:linear-gradient(89deg,#e66465, #9198e5)*/
+  background-size: cover;  
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #BF4F51;
+}
+.App{
+  /* background:linear-gradient(89deg,#e66465, #9198e5);*/
+  background:black;
+   background-image: url(./images/yellow.jpg);
+  
+   background-repeat: no-repeat;
+   background-size:cover;
+
+ }
+
+body{
+ /* background:linear-gradient(89deg,#e66465, #9198e5);*/
+ background:black;
+}
+.home{
+  
+  background-size: 50px 150px;
+  text-align: center;
+
+}
+
+.transfer{
+
+  height: 83vh;
+  /*background: linear-gradient(89deg,#e66465, #9198e5);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.transfer-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.transfer-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.transfer input{
+  width:50%;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.transfer button{
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.transfer button:hover{
+  cursor: pointer;
+}
+table,th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+tbody{
+  padding-bottom: 20px;
+}
+th,td{
+  padding: 15px;
+  text-align: left;
+}
+#customersTable tr:nth-child(even){
+  background-color: #eee;
+}
+#customersTable tr:nth-child(odd){
+  background-color: #fff;
+}
+#customersTable th{
+  background-color: white;
+  color:black;
+}
+
+
+
+.customerView{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.customerView button:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  position:bottom;
+}
+.img{
+  width:700px;
+  height:300px;
+}
+.new{
+  
+   /*background:transparent;*/
+   color:white;
+   font-family:"Comic Sans MS";
+   font-size: 20px;
+   color:#33311C ;
+  display: inline-block;
+  line-height: 1em;
+
+  /*background: #FFEBCD;*/
+  transition: width 2s;
+
+}
+
+.new:hover{
+   width: 100px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  /*background-color: white;*/
+  width:100%;
+  color: #404040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+ /*background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);*/
+ background-blend-mode: screen;
+ height: 83vh;
+ font-family: "Times New Roman", Times, serif;
+ font-style: oblique;
+ 
+ display: inline-block;
+  line-height: 1em;
+   
+        color: red;
+        
+}
+@media only screen and (max-width:900px){
+  .home-bottom{
+    position: relative;
+    bottom:5%;
+    left:25%;
+      }
+    }
+@media only screen and (max-width:700px){
+      .home-bottom{
+        position: relative;
+        bottom:5%;
+        left:20%;
+          }
+        }
+@media only screen and (max-width:650px){
+              .home-bottom{
+                position: relative;
+                bottom:5%;
+                left:15%;
+                width:60%;
+                height:40%;
+                  }
+                  #resp{
+                    display: block;
+                  }
+                  .home-top{
+                    background-size: 100% 60%;
+                  }
+        }
+
+  @media only screen and (max-width:550px){
+    .home-bottom{
+      position: relative;
+      bottom: 3%;
+      left:15%;
+    }
+    h1{
+      font-size: 30px;
+    }
+
+    .transfer-card{
+      width: 100%;
+    }
+    .transfer input{
+      width:55%;
+    }
+    .transfer button{
+      width: 55%;
+    }
+  }
+  @media only screen and (max-width:300px){
+    .contact h2{
+      font-size: 15px;
+      font-style: oblique;
+    }
+  }
+
+h2{
+  color:#1C2833;
+}
+
+.about{
+   
+       /*text-shadow: 
+      -1px -1px 1px #111,S
+            2px 2px 1px #363636;*/
+      color:black;
+   /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+
+
+}
